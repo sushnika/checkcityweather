@@ -1,0 +1,37 @@
+body {
+  background: #262424;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+input#city {
+  padding: 8px 15px;
+  width: 65%;
+  border-radius: 5px;
+  border: 0px;
+  font-weight: 600;
+}
+input#search {
+  background: #e1bb65;
+  padding: 8px 10px;
+  border: 0px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+input#search:hover {
+  background: #fff;
+  color: #e1bb65;
+  transition: 0.3s;
+}
+i#refresh-icon {
+  cursor: pointer;
+}
+.container p {
+  font-size: 18px;
+  font-weight: 600;
+}
